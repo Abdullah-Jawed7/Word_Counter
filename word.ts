@@ -11,5 +11,5 @@ let content =await inquirer.prompt([{
 let words = content.Sentence.trim().split(" ");
 console.log(words);
 
-console.log(chalk.bgWhite(`Your sentence have ${words.length} words `))
+console.log(chalk.bgRed(`Your sentence have ${words.length} words `))
 
